@@ -1,0 +1,64 @@
+/*******************************/
+/********* General CSS *********/
+/*******************************/
+body {
+    color: #666666;
+    background-color : white;
+    font-weight: 400;
+    font-size : 15px;
+      font-family: "Cabin Condensed", sans-serif;
+      font-weight: bold;
+}
+a {
+    color: #666666;
+    transition: .3s;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+hr.hr-2 {
+  margin-top: 10px;
+  border: 0;
+  border-bottom: 2px dashed #eee;
+  background: #999;
+}
+
+
+.hero {
+  perspective: 500px;
+  font-size: 3rem;
+  color: black;
+}
+
+.hero h1 {
+  margin: 2rem 0 2rem 0;
+  transition: all 0.2s;
+  border-top: 5px solid #ffc600;
+  border-bottom: 5px solid #ffc600;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  z-index: 1;
+  text-shadow: 8px 8px 3px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: inline-block;
+}
+.hero h1:hover {
+  transform: scale(1.4) rotateX(-20deg) rotateY(10deg);
+}
+.hero h1:hover :nth-child(even) {
+  animation-delay: 0.15s;
+}

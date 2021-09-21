@@ -1,0 +1,36 @@
+{% extends "Work/Elements/base.html" %}
+{% block about %}
+{% load static %}
+<!-- About Start -->
+<link rel="stylesheet" href={% static "Work/css/about.css" %}>
+<div class="about wow fadeInUp" data-wow-delay="0.1s" id = "about">
+    <div class="container bgw">
+        <div class="row align-items-center">
+            <div class="col-lg-5 col-md-6">
+                <div class="about-img">
+                    <img src={% static "media/logo.png" %} alt="Image">
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-6">
+                <div class="section-header text-left">
+                  <div class="hero">
+                      <h1>Hyperloop</h1>
+                  </div>
+                </div>
+                <div class="about-text">
+                    <p>
+                      <a>Hyperloop</a>, envisioned as the <a>‘fifth mode of transportation’</a>, is the brainchild of the <a>great innovator Elon Musk</a>. It is believed to revolutionize the world of transport by moving faster than airplanes, being <a>environmentally friendly</a>, requiring almost null maintenance and <a>being completely safe</a>. The concept of the Hyperloop is a sealed tube through which a pod may travel free of air resistance or friction, on super magnets without touching the ground.It can truly eliminate the barrier of distance and time and bring to life supersonic travel.
+
+                    </p>
+                    <p>
+                      What’s more is that this project has been open sourced by SpaceX, giving young engineers like us the opportunity to ideate and innovate further.
+
+                      Currently, this technology is being built in Maharashtra by the Virgin Group, connecting the cities of Mumbai and Pune. <a>It is estimated to reduce the time of travel from 2 hrs in trains to 20 minutes in Hyperloop.</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+{% endblock %}

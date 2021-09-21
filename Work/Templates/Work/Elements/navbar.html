@@ -1,0 +1,31 @@
+{% extends "Work/Elements/base.html" %}
+{% block navbar %}
+<!-- Top Bar Start -->
+{% load static %}
+<link rel="stylesheet" href={% static "Work/css/navbar.css" %}>
+
+            <!-- Nav Bar Start -->
+    <div class="nav-bar">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                <a href="#" class="navbar-brand">MENU</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav mr-auto">
+                        <a href="/" class="nav-item nav-link active">Home</a>
+                        <a href="/#about" class="nav-item nav-link">About</a>
+                        <a href="/#events" class="nav-item nav-link">Events</a>
+                        <a href="/#team" class="nav-item nav-link">Team</a>
+                        <a href="/#contact" class="nav-item nav-link">Contact</a>
+                        </div>
+                    </div>
+                      <h1 class= "Titlenav"><a href="/">HyperLoop</a></h1>
+            </nav>
+        </div>
+    </div>
+    <!-- Nav Bar End -->
+
+{% endblock %}
